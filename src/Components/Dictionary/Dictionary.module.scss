@@ -1,0 +1,22 @@
+.dictionary {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__button {
+    margin-top: 20px !important;
+  }
+  &__error {
+    color: red;
+    margin-top: 20px ;
+  }
+}

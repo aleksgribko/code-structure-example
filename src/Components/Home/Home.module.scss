@@ -1,0 +1,17 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__button {
+    margin-top: 20px !important;
+  }
+}
