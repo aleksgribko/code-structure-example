@@ -9,10 +9,6 @@ function DictionaryPage({checkUserAction}) {
   let history = useHistory();
   const user = useSelector((state) => state.global.user);
 
-console.log(!user && !checkUserAction())
-
-console.log(user, checkUserAction())
-
   useEffect(() => {
     !user && !checkUserAction() && history.push("/");
   }, [checkUserAction, history, user]);
